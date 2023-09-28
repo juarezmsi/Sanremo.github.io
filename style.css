@@ -1,0 +1,330 @@
+
+body{
+	margin:0%;
+}
+header {
+    width: 96%;
+    height: 14vh;
+    background: rgb(55,55,55);
+	background: linear-gradient(180deg, rgba(55,55,55,1) 0%, rgba(53,123,138,1) 100%);
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+	width:100%;
+}
+nav {
+    height: 50%;
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a:link{
+    display: flex;
+    width: 19.5%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+	text-decoration:none;
+	font-family:baskerville, serif;
+	font-size:18px;
+	transition: background-color 0.5s;
+    background-color:rgba(0, 0, 0, 0);
+	color:white;
+	border-radius:10px;
+}
+nav  a:visited {
+    display: flex;
+    width: 19.5%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+	text-decoration:none;
+	font-family:baskerville, serif;
+	font-size:18px;
+	transition: background-color 0.5s;
+    background-color:rgba(0, 0, 0, 0);
+	color:white;
+	border-radius:10px;
+}
+nav a:hover{
+	background-color:rgba(0, 0, 0, 0.1)
+}
+main {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+main img{
+	width:100%;
+}
+.text{
+	text-align:center;
+	font-family:baskerville, serif;
+}
+h1{
+	font-size:28px;
+	color:#446;
+}
+.targ {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fichY{
+	
+}
+.fichT{
+	
+}
+.fich {
+    display: flex;
+    width: 25%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	border-radius:10px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#888;
+	padding:1.5%;
+	margin-bottom:4%;
+}
+.fich2{
+	font-size:20px;
+	text-align:center;
+	color:#446;
+}
+.fichp{
+	font-size:15px;
+	text-align:justify;
+	font-family:arial, verdana, sans-serif ;
+	color:#888;
+	line-height:23px;
+}
+.trs{
+	background: rgb(38,38,38);
+background: linear-gradient(0deg, rgba(38,38,38,1) 5%, rgba(255,255,255,1) 97%);
+	width:100%;
+	height:10vh;
+}
+footer {
+    width: 99%;
+    display: flex;
+    padding: 0.5%;
+    background-color: #262626;
+}
+.log-f {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log-f img{
+	width:50%;
+	margin:auto;
+	display:block;
+}
+.info-f{
+	padding:1%;
+	width:28%;
+	padding-top:0.5%;
+}
+footer p{
+	color:white;
+	font-family:arial, verdana, sans-serif;
+	font-size:16px;
+}
+.img-f {
+    display: flex;
+    width: 54%;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img-f img{
+	width:30%;
+}
+.info-f img{
+	width:10%;
+}
+.img-a{
+	width:46%;
+	height:auto;
+	padding:2%;
+}
+.img-a img{
+	width:100%;
+	border-radius:10px;
+	margin-bottom:3%;
+}
+.text-a {
+    width: 48%;
+    height: auto;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.text-a h2{
+	color:#446;
+	font-size:28px;
+	font-family:baskerville, serif;
+	text-align:center;
+}
+.text-a h1{
+	text-align:center;
+}
+.text-a p{
+	font-family:arial, verdana, sans-serif ;
+	text-align:justify;
+	color:#888;
+	line-height:20px;
+}
+.text-a li{
+	font-family:arial, verdana, sans-serif ;
+	color:#888;
+	font-size:15px;
+	line-height:22px;
+}
+.sta{
+	display:flex;
+}
+.stb{
+	display:flex;
+}
+.img-a{
+	width: 48%;
+    height: auto;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.tit{
+	width:100%;
+	
+}
+.cont {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width:800px) {
+	.fich {
+    width: 90%;
+	}
+	.fichp {
+    font-size: 20px;
+    padding: 3%;
+    padding-top: 0%;
+}
+	header{
+		height:auto;
+		flex-direction:column;
+		align-content:center;
+	}
+	.log{
+    padding-top: 3%;
+    width: 75%;
+	}
+
+	nav{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+	}
+	nav a:link{   
+	    font-size: 22px;
+    width: 50%;
+    height: 5vh;
+	}
+	nav a:visited{
+	    font-size: 22px;
+    width: 50%;
+    height: 5vh;
+	}
+	h1 {
+    font-size: 25px;
+    padding: 4%;
+    padding-bottom: 0%;
+	}
+	h2 {
+    font-size: 21px;
+    padding: 7%;
+    padding-top: 2%;
+	}
+	.fich2 {
+    font-size: 22px;
+	}
+	footer {
+    flex-direction: column;
+    align-items: center;
+	}
+	.log-f {
+    width: 50%;
+	}
+	.info-f{
+	width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+	.img-f{
+    width: 98%;
+	flex-direction:column;
+	}
+	.img-f img {
+    width: 50%;
+	}
+	footer p{
+		font-size:18px;
+	}
+	.info-f img {
+    width: 15%;
+	}
+	footer p {
+    font-size: 19px;
+    width: 86%;
+	}
+	.fichp {
+    font-size: 20px;
+    padding: 3%;
+    padding-top: 0%;
+	}
+	.text-a {
+    width: 94%;
+    padding: 3%
+	}
+	.img-a {
+    width: 94%;
+    padding: 3%;
+	}
+	.stb {
+    display: flex;
+    flex-direction: column;
+	}
+	.sta {
+    display: flex;
+    flex-direction: column;
+}
+	.text-a p {
+    font-size: 20px;
+    line-height: 30px;
+	}
+	.text-a li {
+    color: #999;
+    font-size: 20px;
+    line-height: 26px;
+	}
+}
+
